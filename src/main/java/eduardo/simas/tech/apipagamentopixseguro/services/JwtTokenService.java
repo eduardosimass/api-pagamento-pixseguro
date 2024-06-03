@@ -6,13 +6,9 @@ import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTCreationException;
 import eduardo.simas.tech.apipagamentopixseguro.entidade.Users;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-
-import java.security.Timestamp;
 import java.time.*;
-import java.util.Date;
+
 
 @Service
 public class JwtTokenService {
